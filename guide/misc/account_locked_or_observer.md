@@ -7,20 +7,22 @@
  * 违反 [服务条款](https://www.ingress.com/terms)
  * 被多人举报
  * 被系统判定为行为异常，例如移动速度过快并且在移动过程中有 Hack 操作
- 
+
 ## 封号
 
 > 16年5月起，NIA更新了作弊检测算法,导致部分国产安卓设备的定位算法（例如小米手机的智能省电模式）会与之冲突，使用类似设备操作可能会被误封。如被封号请[与NIA联系](https://support.ingress.com/hc/en-us/requests/new?ticket_form_id=164508)。
 
- 
 封号状态的表现包括但不限于：
- 
+
  * 手机上登录游戏后只能看到地图，看不到任何 Portal 信息
- * 任何人（包括自己）无法查看 Profile，提示 Scanner 过热
- * 无法查看 Inventory及intel地图（包括在PC端访问intel地图）
-  
+ * 任何人（包括自己）无法查看 Profile，提示 `Agent no longer in the system`
+ * 无法查看 Inventory 及 Intel 地图（包括在PC端访问intel地图）
+
+当你的账号被封时，你将会收到来自 NIA 的邮件，如下图所示。
+![封号邮件](images/account-ban-email.jpg)
+
 如果你确信你是被误封，请 [联系 NIA](https://support.ingress.com/hc/en-us/requests/new?ticket_form_id=164508)。
-  
+
 ## 半封号
 
 半封号又称观察者模式（Observer），玩家可以正常访问游戏但是部分操作被禁用或者出现异常。在 [Google+ #observers](https://plus.google.com/explore/observers) 有很多玩家描述了自己遇到的这一情况。
@@ -70,7 +72,7 @@ NIA 目前认为半封号状态是一个 Bug。有些人能通过特定的操作
 
 ---------------------
 
-感谢： 
+感谢：
 
  * [1] [Kewe Emde (thekewe) 在 Ingress 社群发布的指南](https://plus.google.com/+KeweEmde/posts/6XgNJBEHrue)
  * [2] @kayatanrebirth 提供了关于被封帐号的表现

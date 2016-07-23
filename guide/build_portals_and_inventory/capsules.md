@@ -23,3 +23,15 @@ Capsule 可以被循环使用，你可以反复 Load 和 UnLoad 道具无数次�
 在你的 Scanner 上触摸地图上的 Capsule，点击 ACQUIRE 以捡起 Capsule。
 
 要将道具从 Capsule 里取出，从 Capsule 菜单里触摸 UNLOAD，然后按照和放入类似的过程取出道具。
+
+## Capsule 的种类
+
+{% include "../../templates/picture_needed.md" %}
+
+目前共有三种不同类型的 Capsule ，分别是普通的 Capsule，MUFG Capsule （俗称红桶） 和 Key Capsule。
+
+其中 Capsule 和 MUFG Capsule 可通过 Hack 得到。MUFG Capsule 的掉率远小于 Capsule。特工将道具存放在 MUFG Capsule 内，道具会以一定的概率增殖。一般来说，一只 MUFG Capsule 内的道具数量为96时，增殖的速度最快。每只 MUFG Capsule 的增殖能力是不同的，官方并没有给出详细的说明。
+
+Key Capsule 需通过 Ingress 游戏内的商店购买得到。每位特工最多只能持有5个 Key Capsule，而普通的 Capsule 和 MUFG Capsule 则没有这个限制。 Key Capsule 不能在特工间交换。
+
+Key Capsule 内只能存放 Key，且存放在 Key Capsule 中的 Key 不会在你的库存内计数。

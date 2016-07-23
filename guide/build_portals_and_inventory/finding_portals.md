@@ -14,4 +14,6 @@ Portal 往往处于所有人可到达的地方，并且在大型城市里最为�
 
 ## 申请 Portal
 
+> 目前（1.98.1）版本已经关闭了全球范围内的portal申请，因此请等待后续开放申请后再尝试提交新portal。
+
 如果你不幸处于 Ingress 活动尚未开始的区域，那么请通过申请新的 Portal 来帮助扩展你所在阵营的控制范围。仔细阅读 [Portal 申请要求](https://support.google.com/ingress/answer/3066197)，然后开始[申请 Portal](https://support.google.com/ingress/answer/2808254) 吧！
