@@ -69,7 +69,11 @@
 	          {
 		            "name": "Ingress Wiki - Wikia",
 		            "url": "http://ingress.wikia.com/wiki/Main_Page"
-	          }
+	          },
+            {
+                "name": "Ingress 的剧情及故事线是怎样的？",
+                "url": "https://www.zhihu.com/question/29401622"
+            }
         ]
     }
 }

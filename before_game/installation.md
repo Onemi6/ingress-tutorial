@@ -4,7 +4,7 @@
 
 ## Android
 
-> 16年5月起，NIA更新了作弊检测算法,导致部分国产安卓设备的定位算法（例如小米手机的智能省电模式）会与之冲突，使用类似设备操作可能会被误封。如被封号请[与NIA联系](https://support.ingress.com/hc/en-us/requests/new?ticket_form_id=164508)。
+> 2016年5月起，Niantic Labs更新了作弊检测算法,导致部分国产安卓设备的定位算法（例如小米手机的智能省电模式）会与之冲突，使用类似设备操作可能会被误封。如被封号请[与NIA联系](https://support.ingress.com/hc/en-us/requests/new?ticket_form_id=164508)。
 
 由于严格且不可知的反作弊机制，不建议从第三方市场下载 Ingress 客户端。你可以从 [Play Store](https://play.google.com/store/apps/details?id=com.nianticproject.ingress) 下载安装。
 
@@ -34,4 +34,4 @@
 注：
 
  * [1] Google Play 可能需要更多的可用空间才能下载该应用。
- * [2] 越狱用户可以尝试安装 tsProtector 或 [Xgress](https://github.com/Qusic/Xgress)（似乎已经停止维护。需要添加源 [cydia.qusic.me](http://cydia.qusic.me/)） 。本方法未经严格测试，并且我们不推荐这么做，使用本方法后果自负。
+ * [2] 越狱用户可以尝试安装 tsProtector 或 [Xgress](https://github.com/Qusic/Xgress)（需要添加源 [cydia.qusic.me](http://cydia.qusic.me/) ,似乎已经停止维护）。**本方法未经严格测试，并且我们不推荐这么做，使用本方法后果自负。**

@@ -1,6 +1,6 @@
 # 中国大陆玩家特别说明
 
-由于特殊的国情，Ingress 又是个由 Google 开发和维护的游戏，相比国外玩家，国内玩家需要面对一些特有的问题。
+由于特殊的国情， Ingress 又是个由 Niantic Labs （原 Google 旗下团队）开发和维护的游戏，相比国外玩家，国内玩家需要面对一些特有的问题。
 
 ## 翻墙
 
@@ -27,19 +27,22 @@ Android 设备翻墙通常比较简单，可选择的服务也比较多。
 
 #### Shadowsocks
 
-目前较为稳定和使用较为广泛的是 [Shadowsocks](http://shadowsocks.org/)，该项目能稳定工作在多个平台，Android 上工作也非常稳定快速，同时，在 Android 5.0 及以上的设备上，其可以不需要 root 权限便工作在支持分应用代理的 VPN 模式下，Android 5.0 以下的设备也可以以中国路由的模式工作在 VPN 模式下。
+目前较为稳定和使用较为广泛的是 [Shadowsocks](http://shadowsocks.org/)，该项目能稳定工作在多个平台，Android 上工作也非常稳定快速，同时，在 Android 5.0 及以上的设备上，其可以不需要 root 权限便工作在支持分应用代理的 VPN 模式下，Android 5.0 以下的设备也可以以绕过国内路由的模式工作在 VPN 模式下。
 
 Shadowsocks 项目本身仅提供协议和服务器 / 客户端实现，本身并未提供任何可以实现翻墙的服务器，此部分可以通过购买各类翻墙服务商提供的付费服务器或者自己租用 VPS 搭建服务器端实现。该部分不在本教程该范围内，请自行搜索或者咨询当地其它玩家。
 
 Shadowsocks 在 Android 上的客户端有两种：
 
- * 由 Shadowsocks 团队维护的官方客户端，你可以从 [官方下载地址](https://github.com/shadowsocks/shadowsocks-android/releases) 或者 [Google Play](https://play.google.com/store/apps/details?id=com.github.shadowsocks) 下载，需要 Android 4.0 以上（支持情况因设备而异），大小约 3.5MB。
+ * 由 Shadowsocks 团队维护的官方客户端，你可以从 [官方下载地址](https://github.com/shadowsocks/shadowsocks-android/releases) 或者 [Google Play](https://play.google.com/store/apps/details?id=com.github.shadowsocks) 下载，需要 Android 4.0 以上（支持情况因设备而异），大小约 3.9MB。
 
+**fqrouter2 项目目前已停止更新，不推荐使用**
  * 由 fqrouter 维护的 fqrouter2，你可以从 [官方下载地址](https://s3-ap-southeast-1.amazonaws.com/fqrouter/fqrouter-latest.html) 或者从 [Google Play](https://play.google.com/store/apps/details?id=fq.router2) 下载，需要 Android 2.3 以上（4.0 以下必须 root），大小约 9MB。
 
 两者均可以在 root / 非 root 模式下正常工作，其中后者有多服务器自动切换，共享可翻墙热点等额外功能，但可能在功耗上较前者稍高。
 
 #### SmartProxy（HTTP 代理）
+
+**该项目最后更新于2014年6月6日，已不再更新，不推荐继续使用**
 
 [SmartProxy](http://smartproxy.me/) 是一款使用 Android VPN API 连接 HTTP 代理的应用，你可以从 [Google Play](https://play.google.com/store/apps/details?id=me.smartproxy) 或者从 [官方下载](http://smartproxy.me/app/SmartProxy.apk) 下载，需要 Android 4.0 以上，大小约 500K。
 
@@ -59,10 +62,22 @@ ShadowVPN 项目本身仅提供协议和服务器 / 客户端实现，本身并�
 
 ### iOS
 
-（iOS 由于系统限制，Shadowsocks 并不能在非越狱的设备上稳定工作，因此，VPN 几乎是非越狱 iOS 设备的唯一选择，你可以选择自行搭建或者购买商业服务。）
-####现在可以用 Surge 链接 Shadowsocks 翻墙实现Ingress游戏正常运行。
-####规则中添加DOMAIN-KEYWORD,google,Proxy,force-remote-dns以及DOMAIN-SUFFIX,appspot.com,Proxy,force-remote-dns。
+在 iOS 9之前，由于系统限制，Shadowsocks 并不能在非越狱的设备上稳定工作，因此，VPN 几乎是非越狱 iOS 设备的唯一选择，你可以选择自行搭建或者购买商业服务。
+
+对于安装了 iOS 9 之后的设备，现在可以选择 Surge / Shadowrocket 等App 实现翻墙。
+
+#### Surge
+
+现在可以用 Surge 链接 Shadowsocks 翻墙实现Ingress游戏正常运行。
+
+规则中添加DOMAIN-KEYWORD,google,Proxy,force-remote-dns以及DOMAIN-SUFFIX,appspot.com,Proxy,force-remote-dns。
+
 ![Surge规则添加](images/image.jpeg)
+
+#### Shadowrocket
+
+{% include "../templates/picture_needed.md" %}
+
 #### 通过已翻墙的 Android 设备或者 Mobile Wi-Fi 设备上网
 
 此方法在此不详述。
@@ -75,7 +90,7 @@ iOS 原生支持的 VPN 协议之一。比较古老的 VPN 协议，易受干扰
 
 #### L2TP/IPSec 和 Cisco IPSec
 
-iOS 原生支持的 VPN 协议之一。能在多数网络环境下正常工作，但仍有被干扰的可能，可通过描述文件实现自动连接和简单的路由配置。易掉线，且由于 Ingress 强制全屏，掉线不易被发现。
+iOS 原生支持的 VPN 协议。能在多数网络环境下正常工作，但仍有被干扰的可能，可通过描述文件实现自动连接和简单的路由配置。易掉线，且由于 Ingress 强制全屏，掉线不易被发现。
 
 目前大多数 VPN 应用使用这类方案。
 
@@ -89,7 +104,9 @@ iOS 原生支持的 VPN 协议之一。能在多数网络环境下正常工作�
 
 某些情况下 AnyConnect 完成身份验证以后会被阻断，表现为 VPN 显示开启状态但是全局无法访问网络。查看流量可见 Bytes Received 几乎为 0（如下图）。这种情况的原因未知，一说为所在区域移动网络基站配置错误导致 UDP 包无法被正确转发。可以尝试更换运营商，更换网络模式（2G/3G/4G，可以[尝试在身份验证阶段和完成身份验证后使用不同的网络模式](https://www.v2ex.com/t/176263#reply10)）或离开该基站覆盖范围再尝试连接。
 
-![AnyConnect 被阻断示例图 1](images/anyconnect-interrupted-1.png) ![AnyConnect 被阻断示例图 2](images/anyconnect-interrupted-2.png)
+![AnyConnect 被阻断示例图 1](images/anyconnect-interrupted-1.png)
+
+![AnyConnect 被阻断示例图 2](images/anyconnect-interrupted-2.png)
 
 #### 全局 HTTP 代理 / APN / 转换为 HTTP 代理服务器的 Shadowsocks
 
@@ -107,7 +124,7 @@ iOS 原生支持的 VPN 协议之一。能在多数网络环境下正常工作�
 
 ## 地图偏移
 
-由于中国国家测绘局的相关规定，所有中国的电子地图均存在一定程度的[非线性偏移](http://baike.baidu.com/view/3163334.htm)，表现在 Ingress 里即为游戏里及 Intel 地图上显示的地图和 Portal 及玩家实际位置存在一定的偏移，关于此，需要注意以下几点。
+由于中国国家测绘局的[相关规定](http://dtsc.sbsm.gov.cn/article/zcfg/jsbz/201108/20110800089587.shtml)，所有中国的电子地图均存在一定程度的[非线性偏移](https://www.zhihu.com/question/19883280)，表现在 Ingress 里即为游戏里及 Intel 地图上显示的地图和 Portal 及玩家实际位置存在一定的偏移，关于此，需要注意以下几点。
 
  * 游戏内地图显示的道路不可信
  * 所有 Portal 位置也存在相应偏移，即 Portal 按实际地理位置（而非地图上的位置）为准
