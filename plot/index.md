@@ -27,3 +27,10 @@
 经过研究者与特工的努力，XM逐渐恢复。随后，抵抗军领袖Jahan和启蒙者领袖Acolyte都变得愈加狂热，为了打击对方不惜牺牲无辜的第三者。Jahan害死了Susanna Moyer的父亲Nigel Moyer，而Acolyte则将Klue折磨的半死不活。在2016年5月-7月的Anomaly，Aegis Nova中，启蒙者获得了三个阶段的全部胜利，并从而对ADA发出了致命的打击。目前ADA失联，情况不明。随后蓝毒也从Portal网络中消失了。
 
 {% include "templates/not_finished_yet.md" %}
+=======
+- 广州蓝军开通了介绍游戏剧情的[Telegram频道](https://telegram.me/ingress_story2016)，特工可以由此获取更多信息。
+
+- 台湾绿军发布的[INGRESS中文劇情時間線](http://www.ingress.game.tw/2016/03/ingress.html)，是目前中文剧情比较全面的文章，推荐阅读。
+
+
+{% include "../templates/not_finished_yet.md" %}
